@@ -5,10 +5,11 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starters</artifactId>
-		<version>99.99.99</version>
+		<version>${revision}</version>
 	</parent>
 	<artifactId>spring-boot-starter-web</artifactId>
 	<name>Spring Boot Web Starter</name>
+        <version>99.99.99.BUILD-SNAPSHOT</version>
 	<description>Starter for building web, including RESTful, applications using Spring
 		MVC. Uses Tomcat as the default embedded container</description>
 	<properties>
